@@ -1,0 +1,42 @@
+.bg-blue {
+  color: darkturquoise;
+}
+
+.background-jumbotron{
+  background-image: url("../img/jumbotron-img.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card:hover {
+  background-color: white;
+  margin: relative;
+  box-shadow: 3px 3px 8px 8px rgba(0, 0, 0, .2);
+  transition: all .4s ease 0s;
+}
+
+h2::before,h2::after{
+  background-color: lightskyblue;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 25%;
+}
+
+h2::before{
+  right: .5em;
+  margin-left: -50%;
+}
+
+h2::after{
+  left: .5em;
+  margin-right: -50%;
+}
+
+#keunggulan, #produk, #kontak, #tentang{
+  padding-top: 5rem;
+}
